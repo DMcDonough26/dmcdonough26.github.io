@@ -1,3 +1,7 @@
+---
+title: Dan McDonough
+---
+
 # Basketball
 
 Refreshed/enhanced work from past repos to be updated soon.
