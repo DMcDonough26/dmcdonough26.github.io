@@ -10,4 +10,4 @@ Outside of work, I’m a big basketball fan, dutifully rooting for my hometown N
 On this site, I plan to share a few things from my [GitHub page](https://github.com/DMcDonough26). A common theme of these projects is that they helped solve a problem for me and maybe could be useful for someone else as well. Most of them will probably center on basketball and darts, but depending on the data, you might also see things about formula 1, making pizza, cocktails, or economics.
 
 
-<span style="font-size: 12px;">1. When asked for the *most* embarrassing moment in Knicks history, Copilot responded with “Knicks fans have a *deep* catalog of pain to choose from” 😔</span>
+<span style="font-size: 12px;">1. When asked for the *most* embarrassing moment in Knicks history, AI responded with “Knicks fans have a *deep* catalog of pain to choose from” 😔</span>
