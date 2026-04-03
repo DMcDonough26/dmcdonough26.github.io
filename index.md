@@ -5,11 +5,9 @@ layout: page
 
 # Basketball
 
-Refreshed/enhanced work from past repos to be updated soon.
-
-- [NBA Scoreboard APP](/nba-scoreboard/)
+[NBA Scoreboard App](/nba-scoreboard/)
 
 
 # Darts
 
-Refreshed/enhanced work from past repos to be updated soon.
+Updated darts app coming soon.
