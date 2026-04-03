@@ -10,4 +10,10 @@ permalink: /:title/
 
 hide_site_feed_link: True
 
-github_username: dmcdonough26
+social_links:
+  - title: DMcDonough26 at GitHub
+    icon: github
+    url: "https://github.com/dmcdonough26"
+  - title: Dan McDonough at LinkedIn
+    icon: linkedin
+    url: "https://www.linkedin.com/in/dan-mcdonough-7b050810/"
