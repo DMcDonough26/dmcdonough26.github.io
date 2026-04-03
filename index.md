@@ -1,6 +1,6 @@
 ---
 title: Dan McDonough
-layout: default
+layout: home
 ---
 
 # Basketball
