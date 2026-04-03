@@ -8,6 +8,8 @@ plugins:
 
 permalink: /:title/
 
+nav_pages:
+
 minima:
   social_links:
     - title: DMcDonough26 at GitHub
