@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "NBA Game Watchability Dashboard"
 ---
 # Test Post
