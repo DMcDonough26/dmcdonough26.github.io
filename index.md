@@ -1,5 +1,5 @@
 ---
-title: Portfolio of Analytical and Data Science Work
+title: Projects
 layout: page
 ---
 
