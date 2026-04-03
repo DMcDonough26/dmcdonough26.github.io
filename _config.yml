@@ -7,3 +7,5 @@ plugins:
   - jekyll-seo-tag
 
 permalink: /:title/
+
+hide_site_feed_link: false
