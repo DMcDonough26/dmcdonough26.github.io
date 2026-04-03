@@ -5,7 +5,10 @@ layout: page
 
 # Basketball
 
-[NBA Scoreboard App](/nba-scoreboard/)
+<a href="/nba-scoreboard/" style="font-size: 22px;">
+  NBA Scoreboard App
+</a>
+
 
 
 # Darts
