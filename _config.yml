@@ -18,4 +18,6 @@ minima:
       url: "https://www.linkedin.com/in/dan-mcdonough-7b050810/"
   hide_site_feed_link: True
   nav_pages:
+    - index.md
+    - about.md
 
