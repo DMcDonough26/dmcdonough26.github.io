@@ -1,5 +1,5 @@
 ---
-title: Dan McDonough
+title: Portfolio of Analytical and Data Science Work
 layout: page
 ---
 
