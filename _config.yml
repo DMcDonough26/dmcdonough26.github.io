@@ -8,4 +8,4 @@ plugins:
 
 permalink: /:title/
 
-hide_site_feed_link: false
+hide_site_feed_link: True
