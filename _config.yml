@@ -9,3 +9,5 @@ plugins:
 permalink: /:title/
 
 hide_site_feed_link: True
+
+github_username: dmcdonough26
