@@ -2,6 +2,9 @@ title: Dan McDonough
 description: Portfolio of Analytical and Data Science Work
 show_downloads: false
 
+author:
+  name: Dan McDonough
+
 remote_theme: jekyll/minima
 plugins:
   - jekyll-seo-tag
