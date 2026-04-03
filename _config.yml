@@ -8,10 +8,13 @@ plugins:
 
 permalink: /:title/
 
-hide_site_feed_link: True
-
 minima:
   social_links:
-    github: DMcDonough26
-    linkedin: dan-mcdonough-7b050810
+    - title: DMcDonough26 at GitHub
+      icon: github
+      url: "https://github.com/dmcdonough26"
+    - title: Dan McDonough at LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/dan-mcdonough-7b050810/"
+  hide_site_feed_link: True
 
