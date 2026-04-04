@@ -27,5 +27,3 @@ minima:
   nav_pages:
     - index.md
     - about.md
-
-THIS_SHOULD_BREAK: [
