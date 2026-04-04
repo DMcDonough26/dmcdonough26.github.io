@@ -2,8 +2,7 @@ title: Dan McDonough
 description: Portfolio of Analytical and Data Science Work
 show_downloads: false
 
-author:
-  name: Dan McDonough
+author: Dan McDonough
 
 theme: minima
 plugins:
@@ -25,3 +24,5 @@ minima:
   nav_pages:
     - index.md
     - about.md
+  include_nav: false
+
