@@ -12,6 +12,9 @@ plugins:
 permalink: /:title/
 
 minima:
+  skin: classic
+  include_css:
+    - assets/css/custom.css
   social_links:
     - title: DMcDonough26 at GitHub
       icon: github
@@ -23,7 +26,5 @@ minima:
   nav_pages:
     - index.md
     - about.md
-  include_css:
-    - assets/css/custom.css?v=1
 
 
