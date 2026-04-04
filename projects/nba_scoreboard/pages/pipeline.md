@@ -1,4 +1,7 @@
-## Data Pipeline
+---
+layout: post
+title: "Data Pipeline"
+---
 
 To support real‑time game ratings and matchup insights, the app pulls together data from a number of sources. I originally built this using web scraping, but eventually migrated to the [NBA Stats API](https://github.com/swar/nba_api) for reliability and structure. The current pipeline pulls from ten different endpoints across both live and static data, and layers in several external datasets to enrich the analysis.
 
