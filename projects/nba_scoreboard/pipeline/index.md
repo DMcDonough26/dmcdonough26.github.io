@@ -10,3 +10,6 @@ Beyond the core NBA data, I also included: a [fan‑surveyed rivalry dataset fro
 Because each source uses its own naming conventions, identifiers, and formats, the pipeline includes a set of translation dictionaries and lightweight cleaning steps (date formatting, text normalization, etc.) to make everything interoperable. From there, the data goes through a series of transformations: joins across sources, aggregations, pace adjustments, and normalization so that different metrics can be compared on the same scale.
 The result is a unified dataset that updates continuously throughout the night and feeds both the game‑rating model and the interactive visuals in the app.
 ![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
+
+[Return to main NBA scoreboard page](/2026/04/03/nba-scoreboard/)
+
