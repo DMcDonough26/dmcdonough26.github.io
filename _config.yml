@@ -11,13 +11,13 @@ plugins:
 
 permalink: /:title/
 
+github_username: DMcDonough26
+linkedin_username: dan-mcdonough-7b050810
+
 minima:
   skin: classic
-  social_links:
-    github: "DMcDonough26"
-    linkedin: "dan-mcdonough-7b050810"
-  hide_site_feed_link: True
+  hide_site_feed_link: true
 
-nav_pages:
+header_pages:
   - index.md
   - about.md
