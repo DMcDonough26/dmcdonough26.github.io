@@ -27,7 +27,7 @@ Because each source uses its own naming conventions, identifiers, and formats, t
 The result is a unified dataset that updates continuously throughout the night and feeds both the game‑rating model and the interactive visuals in the app.
 ![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
 
-[Read the full pipeline deep dive →](/projects/nba_scoreboard/pipeline/)
+[Read the full pipeline deep dive](/projects/nba_scoreboard/pages/pipeline.md)
 
 ## Game Ratings
 
