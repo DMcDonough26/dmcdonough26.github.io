@@ -24,6 +24,6 @@ minima:
     - index.md
     - about.md
   include_css:
-    - assets/css/custom.css
+    - assets/css/custom.css?v=1
 
 
