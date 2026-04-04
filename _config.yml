@@ -23,4 +23,7 @@ minima:
   nav_pages:
     - index.md
     - about.md
+  include_css:
+    - assets/css/custom.css
+
 
