@@ -1,0 +1,17 @@
+---
+---
+
+/* temporary test */
+body {
+  outline: 5px solid red !important;
+}
+
+/* zoom effect */
+img {
+  transition: transform 0.2s ease-in-out;
+  cursor: zoom-in;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
