@@ -5,7 +5,7 @@ show_downloads: false
 author:
   name: Dan McDonough
 
-remote_theme: jekyll/minima
+theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
