@@ -16,9 +16,9 @@ The problem was that the NBA hadn’t staggered tipoff times enough to make full
 
 Further complicating things was that the answer was always changing, and the NBA had not yet created a RedZone-style product to automatically plug the viewer into the most exciting live action.
 
-Initially this began as a small project to learn web scraping, but over time I wanted this to evolve as an analytics project (data pipeline, UI) and also as a data product. I wanted to be able to let the user provide input into how games are rated, and I wanted to offer what-to-watch “tasting notes” to direct users to the subtle game-within-the-game that might be happening for any matchup they are dropping into.
+Initially this began as a small project to learn web scraping, but over time I wanted this to evolve as an analytics project (data pipeline, UI) and also as a data product. I wanted to be able to let the user provide input into how games are rated, and I wanted to offer notes on style contrasts to direct users to the subtle game-within-the-game that might be happening for any matchup they are dropping into.
 
-This version of the project is the evolution of that original idea: a real time dashboard that monitors that night’s slate for you, highlights the most watchable game, and gives you context that enhances the viewing experience.
+This version of the project is the evolution of that original idea: a real-time dashboard that monitors the game slate for you, recommends the best option based on what you love about the league, and gives you context that enhances the viewing experience.
 
 ## Data Pipeline
 
@@ -26,7 +26,7 @@ The app brings together live NBA data, advanced metrics, injuries, rivalries, te
 
 ![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
 
-[Click here to check out the pipeline deep dive](/projects/nba_scoreboard/pipeline/)
+[Click here to learn more about the pipeline](/projects/nba_scoreboard/pipeline/)
 
 ## Game Ratings
 
@@ -34,7 +34,7 @@ The app scores each matchup using a customizable formula that blends game state,
 
 <img class="zoomable" src="/projects/nba_scoreboard/images/ratings.png" alt="Game Ratings">
 
-[Click here to check out the game rating deep dive](/projects/nba_scoreboard/ratings/)
+[Click here to learn more about the ratings](/projects/nba_scoreboard/ratings/)
 
 <script src="/assets/js/zoom.js"></script>
 
