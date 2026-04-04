@@ -14,7 +14,7 @@ permalink: /:title/
 minima:
   skin: classic
   include_css:
-    - assets/css/custom.css
+    - /assets/css/custom.css
   social_links:
     - title: DMcDonough26 at GitHub
       icon: github
