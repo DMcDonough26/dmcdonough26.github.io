@@ -7,7 +7,10 @@ permalink: /nba-scoreboard/
 
 This streamlit app provides a real-time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game rating formula and dive into interactive visuals for any matchup.
 
-![Scoreboard Overview](/projects/nba_scoreboard/images/nba_scoreboard_overview.png)
+<div class="zoomable">
+  <img src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Data Pipeline">
+</div>
+
 
 ## Background
 This project started years ago, when I was in grad school and had just moved from New York to Chicago. I bought League Pass so I could keep up with the Knicks, and most nights I’d get home from class, open my laptop to do a little work, and want to throw a game on in the background.
@@ -32,7 +35,9 @@ The app brings together live NBA data, advanced metrics, injuries, rivalries, te
 
 The app scores each matchup using a customizable formula that blends game state, matchup quality, narrative context, and style of play. Users control the weighting across these four categories, while the app handles normalization and variable scaling behind the scenes to keep everything comparable.
 
-![Ratings](/projects/nba_scoreboard/images/ratings.png)
+<div class="zoomable">
+  <img src="/projects/nba_scoreboard/images/ratings.png" alt="Data Pipeline">
+</div>
 
 [Click here to check out the game rating deep dive](/projects/nba_scoreboard/ratings/)
 
