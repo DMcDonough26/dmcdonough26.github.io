@@ -28,7 +28,7 @@ The app brings together live NBA data, advanced metrics, injuries, rivalries, te
 
 The app scores each matchup using a customizable formula that blends game state, matchup quality, narrative context, and style of play. Users control the weighting across these four categories, while the app handles normalization and variable scaling behind the scenes to keep everything comparable.
 
-[Click here to check out the pipeline deep dive](/projects/nba_scoreboard/pipeline/)
+[Click here to check out the game rating deep dive](/projects/nba_scoreboard/ratings/)
 
 
 
