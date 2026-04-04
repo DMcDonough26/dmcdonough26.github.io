@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NBA Game Watchability Dashboard"
+title: "NBA Scoreboard App"
 ---
 # Test Post
 
