@@ -6,7 +6,7 @@ layout: page
 # Basketball
 
 <a href="/nba-scoreboard/" style="font-size: 22px;">
-  NBA Scoreboard App
+  What's the Best Game on TV?
 </a>
 
 
