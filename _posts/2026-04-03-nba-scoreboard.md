@@ -50,7 +50,8 @@ Narrative and stylistic intrigue — rivalry status, style contrast, total star 
 How the teams actually play: diversity of play types, foul rate, pace, ball and player movement (both pace‑adjusted), egalitarian shot distribution, and the Lowe/Mahoney team ratings.
 
 For most variables, a value is computed for each team and averaged across the matchup. All variables are normalized to a common scale, then weighted according to user input. Normalization required estimating the distribution for each variable — sometimes comparing a team’s season‑to‑date performance against all other teams, other times comparing a single game against historical distributions from prior seasons.
-**Screenshot of ratings with dropdowns expanded**
+
+**Screenshot of ratings with dropdowns expanded:**
 ![Ratings](/assets/nba_scoreboard/ratings.png)
 
 
