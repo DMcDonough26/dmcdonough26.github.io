@@ -8,17 +8,21 @@ img:hover {
   transform: scale(1.05);
 }
 
-.site-footer .footer-heading {
+.site-footer .footer-col-2 {
   display: none !important;
 }
 
 .page-heading {
-  text-align: center;
+  text-align: center !important;
 }
 
-.page-title {
-  margin-left: auto;
-  margin-right: auto;
+.page-title,
+.post-title,
+.home-title {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
 }
 
 
