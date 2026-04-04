@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "NBA Scoreboard App"
+title: "What's the Best Game on TV Right Now?"
 ---
-# Test Post
+# Summary
 
-![Test Image](/assets/nba_scoreboard/nba_scoreboard_test_img.png)
+This streamlit app provides a real time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game rating formula and dive into interactive visuals for any matchup.
+
+
+
