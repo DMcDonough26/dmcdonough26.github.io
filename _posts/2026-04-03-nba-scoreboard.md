@@ -27,6 +27,8 @@ Because each source uses its own naming conventions, identifiers, and formats, t
 The result is a unified dataset that updates continuously throughout the night and feeds both the game‑rating model and the interactive visuals in the app.
 ![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
 
+[Read the full pipeline deep dive →](/projects/nba_scoreboard/pipeline/)
+
 ## Game Ratings
 
 When designing the game‑rating model, I wrestled with how much control to give users. Some input methods are highly transparent — sliders, percentage allocations, or numeric weights — but they become cumbersome when dozens of variables are involved. Others are simpler — toggles or high/medium/low selectors — yet obscure how each choice affects the underlying formula.
