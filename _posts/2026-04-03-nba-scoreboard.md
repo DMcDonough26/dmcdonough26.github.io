@@ -36,6 +36,7 @@ The app scores each matchup using a customizable formula that blends game state,
 
 [Click here to check out the game rating deep dive](/projects/nba_scoreboard/ratings/)
 
+<script src="/assets/js/zoom.js"></script>
 
 
 
