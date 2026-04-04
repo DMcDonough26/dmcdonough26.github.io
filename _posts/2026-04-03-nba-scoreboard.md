@@ -25,7 +25,7 @@ Beyond the core NBA data, I also included: a [fan‑surveyed rivalry dataset fro
 
 Because each source uses its own naming conventions, identifiers, and formats, the pipeline includes a set of translation dictionaries and lightweight cleaning steps (date formatting, text normalization, etc.) to make everything interoperable. From there, the data goes through a series of transformations: joins across sources, aggregations, pace adjustments, and normalization so that different metrics can be compared on the same scale.
 The result is a unified dataset that updates continuously throughout the night and feeds both the game‑rating model and the interactive visuals in the app.
-![Data Pipeline](/assets/nba_scoreboard/data pipeline.png)
+![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
 
 ## Game Ratings
 
@@ -52,7 +52,7 @@ How the teams actually play: diversity of play types, foul rate, pace, ball and 
 For most variables, a value is computed for each team and averaged across the matchup. All variables are normalized to a common scale, then weighted according to user input. Normalization required estimating the distribution for each variable — sometimes comparing a team’s season‑to‑date performance against all other teams, other times comparing a single game against historical distributions from prior seasons.
 
 **Screenshot of ratings with dropdowns expanded:**
-![Ratings](/assets/nba_scoreboard/ratings.png)
+![Ratings](/projects/nba_scoreboard/images/ratings.png)
 
 
 
