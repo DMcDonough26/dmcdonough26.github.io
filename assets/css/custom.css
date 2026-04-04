@@ -9,3 +9,8 @@
   position: relative;
   z-index: 9999;
 }
+
+.zoomable img {
+  border: 5px solid blue !important;
+}
+
