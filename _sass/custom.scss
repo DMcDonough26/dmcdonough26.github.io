@@ -1,8 +1,3 @@
-/* temporary test */
-body {
-  outline: 5px solid red !important;
-}
-
 /* zoom effect */
 img {
   transition: transform 0.2s ease-in-out;
@@ -13,8 +8,11 @@ img:hover {
   transform: scale(1.05);
 }
 
-.site-footer .footer-col-3 {
+.site-footer .footer-col-1 {
   display: none !important;
 }
 
+.page-title {
+  text-align: center;
+}
 
