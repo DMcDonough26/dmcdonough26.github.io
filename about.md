@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-Hey I’m Dan – a data nerd who finally decided to put together a project portfolio. At work, I’ve spent the last 15 years in a variety of analytical roles at financial services firms ranging from business-focused functions such as product management and strategy to more technical areas like analytics and data science. Whatever the exact role, I love to use data to help solve problems.
+Hey I’m Dan – a data nerd who finally decided to put together a project portfolio. At work, I’ve spent the last 15 years in a variety of analytical roles ranging from business-focused functions such as product management and strategy to more technical areas like analytics and data science. Whatever the exact role, I love to use data to help solve problems.
 
 Outside of work, I’m a big basketball fan, dutifully rooting for my hometown New York Knicks … for better or worse<sup>1</sup>. I also throw in a steel-tip dart league here in St. Louis, and although none of us are [going pro](https://www.youtube.com/watch?v=AcL6bRdbO-4) it’s a fun way to break up the week and have a beer with friends.
 
