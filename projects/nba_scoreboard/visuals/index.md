@@ -13,9 +13,16 @@ While streamlit is an incredily powerful tool for standing an app up like this q
 
 #### 1. Four Factors Lollipop Chart
 <img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors">
+
 After the user selects a game and a side of the ball, they can dive deeper on four areas of the game. The first chart gives a breakdown of Dean Oliver’s four factors: the four terminal outcomes of a basketball play (a turnover, a trip to the free throw line, a field goal attempt, or an offensive rebound) that together represent comprehensive determinants of success in a game (all else equal, if you’re ahead on any one of these you’re going to win the game).
 
 The lollipop chart was chosen to make it easy to compare just the two teams and retain visual context for where each team sits relative to the rest of the league. Most interesting are the areas where both teams thrive (such as free throw rate in the example above). Denver and San Antonio are great teams and rely on at getting/not giving up free throws respectively for their success. It’s impossible for both to maintain their usual high performance in this matchup, so an interesting game-within-the-game is keeping an eye on that battleground.
+
+#### 2. Style‑of‑Play Scatter / Beeswarm
+<img class="zoomable" src="/projects/nba_scoreboard/images/style.png" alt="Style">
+
+This chart illustrates the variables within the style category of the ratings with a visual similar to a bee swarm chart. The example above illustrates not just how fast Miami has been playing, but how deliberately they have bucked the at times monotonous trend of spread pick and roll and instead reshaped their offense drawing inspiration form last season’s Memphis offense centered and dribble-drive penetration, kickouts and cuts. Play diversity is calculated as the sum of the squared differences of each types frequency of running each play type compared to the league average frequency for that play type.
+
 
 
 
