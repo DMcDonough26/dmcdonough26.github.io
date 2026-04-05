@@ -23,6 +23,14 @@ The lollipop chart was chosen to make it easy to compare just the two teams and 
 
 This chart illustrates the variables within the style category of the ratings with a visual similar to a bee swarm chart. The example above illustrates not just how fast Miami has been playing, but how deliberately they have bucked the at times monotonous trend of spread pick and roll and instead reshaped their offense drawing inspiration form last season’s Memphis offense centered and dribble-drive penetration, kickouts and cuts. Play diversity is calculated as the sum of the squared differences of each types frequency of running each play type compared to the league average frequency for that play type.
 
+#### 3. Play Type Frequency & Efficiency
+<img class="zoomable" src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
+
+The chart above carries over our example with Miami, and actually made me realize I needed to expand my Y-axis range for just how extreme Miami’s distaste for (and inefficiency with) the pick and roll had become. A play type at the center of this chart is run with league-average frequency and efficiency. Plays to the left less frequent, and plays to the bottom are less efficient.
+
+The second chart below features the #1 offense of the Denver Nuggets (it helps when you have Nikola Jokic).
+<img class="zoomable" src="/projects/nba_scoreboard/images/play types nuggets.png" alt="Play Types Denver">
+
 
 
 
