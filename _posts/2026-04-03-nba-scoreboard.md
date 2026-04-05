@@ -36,6 +36,16 @@ The app scores each matchup using a customizable formula that blends game state,
 
 [Click here to learn more about the ratings](/projects/nba_scoreboard/ratings/)
 
+## Dashboard Visuals
+There are two primary visuals on the dashboard: the scoreboard, and the matchup charts.
+The scoreboard organizes live, upcoming, and completed games and surfaces information needed to decide whether a matchup is worth watching and how to watch.
+For the charts section, after the user select both a game, and also a side of the ball (e.g., Team A’s offense vs. team B’s defense), four interactive visuals bring context to the game across Dean Oliver’s four factors, style of play, play types, and shot locations.
+
+<img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors">
+
+[Click here to learn more about the visuals](/projects/nba_scoreboard/visuals/)
+
+
 <script src="/assets/js/zoom.js"></script>
 
 
