@@ -10,15 +10,15 @@ I settled on a middle ground:
 - Together, these selections provide the weights for the variables included in the game rating.
 - Default values are provided for both category and variable weights, so casual users can skip configuration entirely.
 
-**Screenshot of ratings with dropdowns expanded:**
+Screenshot of ratings with dropdowns expanded:
 <img class="zoomable" src="/projects/nba_scoreboard/images/ratings.png" alt="Game Ratings">
 
 #### Category 1: Game State
 The most influential factor — how close the game is and how much time remains.
-A third variable in this categoyr, game flow, captures dynamics like number of ties, lead changes, the largest lead, and whether there has been a meaningful comeback.
+A third variable in this category, game flow, captures dynamics like number of ties/lead changes, the largest lead, and whether there has been a meaningful comeback.
 
 #### Category 2: Matchup Quality
-How good the matchup looks on paper: team strength, injury impact (measured by prior‑year VORP of injured players), total rest, and optionally offensive and defensive ratings.
+How good the matchup looks on paper: team strength, injury impact (measured by prior‑year VORP of injured players), total rest, and offensive/defensive ratings.
 
 #### Category 3: Matchup Context
 Narrative and stylistic intrigue — rivalry status, style contrasts, total star power (based on the NBA’s official star designation), and whether the game is nationally televised.
