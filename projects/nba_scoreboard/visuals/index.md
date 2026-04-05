@@ -14,8 +14,11 @@ While streamlit is an incredily powerful tool for standing an app up like this q
 #### 1. Four Factors Lollipop Chart
 <img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors">
 After the user selects a game and a side of the ball, they can dive deeper on four areas of the game. The first chart gives a breakdown of Dean Oliver’s four factors: the four terminal outcomes of a basketball play (a turnover, a trip to the free throw line, a field goal attempt, or an offensive rebound) that together represent comprehensive determinants of success in a game (all else equal, if you’re ahead on any one of these you’re going to win the game).
+
 The lollipop chart was chosen to make it easy to compare just the two teams and retain visual context for where each team sits relative to the rest of the league. Most interesting are the areas where both teams thrive (such as free throw rate in the example above). Denver and San Antonio are great teams and rely on at getting/not giving up free throws respectively for their success. It’s impossible for both to maintain their usual high performance in this matchup, so an interesting game-within-the-game is keeping an eye on that battleground.
 
 
+
+[Return to main NBA scoreboard page](/nba-scoreboard/)
 
 <script src="/assets/js/zoom.js"></script>
