@@ -7,24 +7,25 @@ When designing the game‑rating model, I wrestled with how much control to give
 I settled on a middle ground:
 - Users allocate percent weightings across four major categories.
 - Within each category, they choose high/medium/low importance for individual variables.
+- Together, these selections provide the weights for the variables included in the game rating.
 - Default values are provided for both category and variable weights, so casual users can skip configuration entirely.
+
+**Screenshot of ratings with dropdowns expanded:**
+<img class="zoomable" src="/projects/nba_scoreboard/images/ratings.png" alt="Game Ratings">
 
 #### Category 1: Game State
 The most influential factor — how close the game is and how much time remains.
-A third variable, game flow, captures dynamics like ties, lead changes, largest lead, and comeback potential.
+A third variable in this categoyr, game flow, captures dynamics like number of ties, lead changes, the largest lead, and whether there has been a meaningful comeback.
 
 #### Category 2: Matchup Quality
 How good the matchup looks on paper: team strength, injury impact (measured by prior‑year VORP of injured players), total rest, and optionally offensive and defensive ratings.
 
 #### Category 3: Matchup Context
-Narrative and stylistic intrigue — rivalry status, style contrast, total star power (based on the NBA’s official star designation), and whether the game is nationally televised.
+Narrative and stylistic intrigue — rivalry status, style contrasts, total star power (based on the NBA’s official star designation), and whether the game is nationally televised.
 
 #### Category 4: Style of Play
 How the teams actually play: diversity of play types, foul rate, pace, ball and player movement (both pace‑adjusted), egalitarian shot distribution, and the Lowe/Mahoney team ratings.
 
-For most variables, a value is computed for each team and averaged across the matchup. All variables are normalized to a common scale, then weighted according to user input. Normalization required estimating the distribution for each variable — sometimes comparing a team’s season‑to‑date performance against all other teams, other times comparing a single game against historical distributions from prior seasons.
-
-**Screenshot of ratings with dropdowns expanded:**
-![Ratings](/projects/nba_scoreboard/images/ratings.png)
+For many variables, a value is computed for each team and averaged across the matchup. All variables are normalized to a common scale, then weighted according to user input. Normalization required establishing a distribution for each variable — sometimes comparing a team’s season‑to‑date performance against all other teams (e.g., style variables), other times comparing a single game against historical distributions from prior seasons (e.g., game flow and margin of victory).
 
 [Return to main NBA scoreboard page](/nba-scoreboard/)
