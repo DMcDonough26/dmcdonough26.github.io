@@ -16,9 +16,9 @@ The problem was that the NBA hadn’t staggered tipoff times enough to make full
 
 Further complicating things was that the answer was always changing, and the NBA had not yet created a RedZone-style product to automatically plug the viewer into the most exciting live action.
 
-Initially this began as a small project to learn web scraping, but over time I wanted this to evolve as an analytics project (data pipeline, UI) and also as a data product. I wanted to be able to let the user provide input into how games are rated, and I wanted to offer notes on style contrasts to direct users to the subtle game-within-the-game that might be happening for any matchup they are dropping into.
+Initially this began as a small project to learn web scraping, but over time I wanted this to evolve as both an analytics project (data pipeline, UI) and a data product. I wanted to allow the user to provide input on game ratings, and wanted to provide context on style contrasts to illuminate the subtle game-within-the-game that might be happening in any given matchup.
 
-This version of the project is the evolution of that original idea: a real-time dashboard that monitors the game slate for you, recommends the best option based on what you love about the league, and gives you context that enhances the viewing experience.
+This version of the project is the evolution of that original idea: a real-time dashboard that monitors the scoreboard for you, recommends the best game based on what you love about the league, and gives you context that enhances the viewing experience.
 
 ## Data Pipeline
 
@@ -37,9 +37,9 @@ The app scores each matchup using a customizable formula that blends game state,
 [Click here to learn more about the ratings](/projects/nba_scoreboard/ratings/)
 
 ## Dashboard Visuals
-There are two primary visuals on the dashboard: the scoreboard, and the matchup charts.
+There are two primary visuals on the dashboard: the scoreboard and the matchup charts.
 The scoreboard organizes live, upcoming, and completed games and surfaces information needed to decide whether a matchup is worth watching and how to watch.
-For the charts section, after the user select both a game, and also a side of the ball (e.g., Team A’s offense vs. team B’s defense), four interactive visuals bring context to the game across Dean Oliver’s four factors, style of play, play types, and shot locations.
+For the charts section, after the user select both a game and a side of the ball (e.g., Team A’s offense vs. team B’s defense), four interactive visuals bring context to the game across Dean Oliver’s four factors, style of play, play types, and shot locations.
 
 <img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors">
 
