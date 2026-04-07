@@ -46,7 +46,7 @@ For the charts section, after the user select both a game and a side of the ball
 [Click here to learn more about the visuals](/projects/nba_scoreboard/visuals/)
 
 ## Architecture
-The app is structured to feel fast and responsive while avoiding unnecessary API calls. All rating‑related UI elements are created first so Streamlit can begin rendering immediately, and so caching can start before any data is pulled. Every major data source is cached and reused as needed, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, and injury report). After the initial boot‑up on first launch—when the APIs are called—the execution flow becomes clean and predictable: data is fetched once, wrangled into unified dataframes (including ratings), and handed back to the main program before the rest of the page renders. The final layout includes styled scoreboard tabs, UI controls for chart selection, and four tabs of matchup visuals.
+The app is structured to feel fast and responsive while avoiding unnecessary API calls. Rating‑related UI elements render first so caching can begin immediately, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, injury report). After the initial boot‑up, data is fetched once, cached, and reused across the scoreboard and chart tabs for a clean, predictable execution flow
 
 Once the app is deployed, this section will expand to cover the deployment architecture and performance considerations.
 
