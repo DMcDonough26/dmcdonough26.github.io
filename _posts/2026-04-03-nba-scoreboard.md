@@ -50,6 +50,12 @@ The app is structured to feel fast and responsive while avoiding unnecessary API
 
 Once the app is deployed, this section will expand to cover the deployment architecture and performance considerations.
 
+## Learnings
+
+## Next Steps
+
+## Acknowledegments
+
 
 <script src="/assets/js/zoom.js"></script>
 
