@@ -52,10 +52,15 @@ Once the app is deployed, this section will expand to cover the deployment archi
 
 ## Learnings
 
+To be completed
+
 ## Next Steps
+
+To be completed
 
 ## Acknowledegments
 
+To be completed
 
 <script src="/assets/js/zoom.js"></script>
 
