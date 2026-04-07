@@ -46,7 +46,7 @@ For the charts section, after the user select both a game and a side of the ball
 [Click here to learn more about the visuals](/projects/nba_scoreboard/visuals/)
 
 ## Architecture
-The app is structured to feel fast and responsive while avoiding unnecessary API calls. Rating‑related UI elements render first so caching can begin immediately, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, injury report). After the initial boot‑up, data is fetched once, cached, and reused across the scoreboard and chart tabs for a clean, predictable execution flow
+The app is structured to feel fast and responsive while avoiding unnecessary API calls. Rating‑related UI elements render first so caching can begin immediately, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, injury report). After the initial boot‑up, data is fetched once, cached, and reused across the scoreboard and chart tabs for a clean, predictable execution flow.
 
 Once the app is deployed, this section will expand to cover the deployment architecture and performance considerations.
 
