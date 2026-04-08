@@ -52,15 +52,15 @@ Once the app is deployed, this section will expand to cover the deployment archi
 
 ## Learnings
 
-### 1. Working with the NBA API
+#### 1. Working with the NBA API
 
-I’ve used the NBA API package before, but this project pushed me to understand it at a much deeper level. I evaluated essentially all of the endpoints to get clarity on what data exists, how it’s structured, and what grains (player, team, game) are available. That exploration will hopefully accelerate future analytics projects.
+While I’ve used the NBA API package before, this project pushed me to understand it at a deeper level – exploration that will accelerate future NBA analytics projects.
 
-### 2. Building an App in Streamlit
+#### 2. Building an App in Streamlit
 
-Before this project, my Python workflow lived mostly in Jupyter notebooks, plotting libraries, and the occasional CLI or Bokeh server for interactivity. I had always viewed browser‑based apps as requiring a heavier lift (Flask, Django, etc.). Streamlit changed that. It’s a great tool for standing up interactive visuals quickly, but it came with a learning curve — especially understanding that the entire script re‑executes on every UI interaction. Once I internalized that model and leaned into heavy caching (with a refresh button to clear only what’s needed), the architecture clicked and the development process sped up dramatically.
+Before this project, my Python workflow lived mostly in Jupyter notebooks, with the occasional CLI or Bokeh server program. I had always viewed browser based apps as requiring a heavier lift, but Streamlit changed that. It’s a great tool for standing up interactive visuals quickly, but it came with a learning curve. Once I understood that the entire script re executes on every UI interaction and leaned into heavy caching (with a refresh button to clear only what’s needed), the architecture clicked.
 
-### 3. Using AI as a Development Partner
+#### 3. Using AI as a Development Partner
 
 This was my first time using AI throughout a full code project rather than just for text editing or brainstorming, and it ended up becoming a very helpful development partner. I used it in a way that felt natural and productive:
 - for quick syntax reminders I’ve written before but forgotten
@@ -70,7 +70,7 @@ This was my first time using AI throughout a full code project rather than just 
 
 I didn’t outsource the project or “vibe‑code” by delegating entire modules. I stayed in the driver’s seat, made architectural decisions myself, and used AI to accelerate learning, unblock myself, and sanity‑check ideas. Sometimes it saved hours; other times the traditional path was faster. But overall, it was a valuable part of the workflow and gave me a clearer sense of how AI can fit into real development work without replacing the developer’s judgment or ownership.
 
-### 4. Standing Up a Site with GitHub Pages
+#### 4. Standing Up a Site with GitHub Pages
 
 I don’t have a background in web development, so GitHub Pages was an appealing way to publish a site without needing to build a front end from scratch. Relying on Markdown and a lightweight theme let me focus on content rather than HTML/CSS. I’m still interested in improving the site’s appearance and learning more about front‑end development over time, but GitHub Pages made it possible to get something functional online quickly — similar to how Streamlit accelerated the app side.
 
