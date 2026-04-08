@@ -32,9 +32,13 @@ The second chart below features the #1 offense of the Denver Nuggets. What jumps
 <img class="zoomable" src="/projects/nba_scoreboard/images/play types nuggets.png" alt="Play Types Denver">
 
 #### 4. Shot Location Distributions
+<img class="zoomable" src="/projects/nba_scoreboard/images/shot chart.png" alt="Shot Chart">
 
-To be completed
+Much of NBA defense comes down to influencing where opponents shoot, not just whether those shots go in. This chart highlights that chess match by separating shot frequency (left) from shot efficiency (right), giving a clearer view of both what teams try to generate and what defenses try to take away.
 
+In the example above, the Pelicans–Jazz matchup creates an interesting contrast. New Orleans leads the league in getting to the rim, while Utah is one of the best teams at preventing rim attempts. Even more unusual: the Pelicans are among the least efficient finishers at the rim, and the Jazz allow some of the highest efficiency on those same shots. That combination suggests a real stylistic tension — one worth watching to see whether the Pelicans can impose their preferred shot profile or whether the Jazz can steer them into less valuable looks.
+
+Note: Offense is scaled so that #1 means you get the most of a shot type/are the most efficient at it. Defense is scaled so that #1 means you give up the least of a show type and give up the lowest efficiency.
 
 [Return to main NBA scoreboard page](/nba-scoreboard/)
 
