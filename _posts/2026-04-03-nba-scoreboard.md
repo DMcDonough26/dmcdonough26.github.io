@@ -18,7 +18,7 @@ Further complicating things was that the answer was always changing, and the NBA
 
 Initially this began as a small project to learn web scraping, but over time I wanted this to evolve as both an analytics project (data pipeline, UI) and a data product. I wanted to allow the user to provide input on game ratings, and wanted to provide context on style contrasts to illuminate the subtle game-within-the-game that might be happening in any given matchup.
 
-This version of the project is the evolution of that original idea: a real-time dashboard that monitors the scoreboard for you, recommends the best game based on what you love about the league, and gives you context that enhances the viewing experience.
+This version of the project is the evolution of that original idea: a real-time dashboard that monitors the scoreboard for you, recommends the best game based on what *you* love about the league, and provides context that enhances the viewing experience.
 
 ## Data Pipeline
 
