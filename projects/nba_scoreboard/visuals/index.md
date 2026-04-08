@@ -38,7 +38,7 @@ Much of NBA defense comes down to influencing where opponents shoot, not just wh
 
 In the example above, the Pelicans–Jazz matchup creates an interesting contrast. New Orleans leads the league in getting to the rim, while Utah is one of the best teams at preventing rim attempts. Even more unusual: the Pelicans are among the least efficient finishers at the rim, and the Jazz allow some of the highest efficiency on those same shots. That combination suggests a real stylistic tension — one worth watching to see whether the Pelicans can impose their preferred shot profile or whether the Jazz can steer them into less valuable looks.
 
-Note: Offense is scaled so that #1 means you get the most of a shot type/are the most efficient at it. Defense is scaled so that #1 means you give up the least of a show type and give up the lowest efficiency.
+Note: Offense is scaled so that #1 means you get the most of a shot type/are the most efficient at it. Defense is scaled so that #1 means you give up the least of a shot type and give up the lowest efficiency.
 
 [Return to main NBA scoreboard page](/nba-scoreboard/)
 
