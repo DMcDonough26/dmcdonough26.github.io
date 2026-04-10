@@ -54,25 +54,20 @@ Once the app is deployed, this section will expand to cover the deployment archi
 
 #### 1. Working with the NBA API
 
-While I’ve used the NBA API package before, this project pushed me to understand it at a deeper level – exploration that will accelerate future NBA analytics projects.
+While I’ve used the NBA API package before, this project gave me a clearer understanding of its rate limits, available data elements, and how information is organized across player, team, and game-level endpoints.
 
 #### 2. Building an App in Streamlit
 
-Before this project, my Python workflow lived mostly in Jupyter notebooks, with the occasional CLI or Bokeh server program. I had always viewed browser based apps as requiring a heavier lift, but Streamlit changed that. It’s a great tool for standing up interactive visuals quickly, but it came with a learning curve. Once I understood that the entire script re executes on every UI interaction and leaned into heavy caching (with a refresh button to clear only what’s needed), the architecture clicked.
+Before this project, I assumed building anything browser based (Flask, Django) required a heavy lift. Streamlit changed that. It took time to understand its execution model — especially that the entire script reruns on every UI interaction — but once I wrapped my head around that and leaned into caching, it became a powerful, lightweight way to build interactive apps that I can now use on future projects.
 
 #### 3. Using AI as a Development Partner
 
-This was my first time using AI throughout a full code project rather than just for text editing or brainstorming, and it ended up becoming a very helpful development partner. I used it in a way that felt natural and productive:
-- for quick syntax reminders I’ve written before but forgotten
-- for package suggestions or patterns when I knew the goal but needed to upskill
-- for help navigating brand‑new territory (certain chart types, Streamlit execution, GitHub Pages quirks)
-- and occasionally as a tutor when documentation wasn’t quite clicking
-
-I didn’t outsource the project or “vibe‑code” by delegating entire modules. I stayed in the driver’s seat, made architectural decisions myself, and used AI to accelerate learning, unblock myself, and sanity‑check ideas. Sometimes it saved hours; other times the traditional path was faster. But overall, it was a valuable part of the workflow and gave me a clearer sense of how AI can fit into real development work without replacing the developer’s judgment or ownership.
+This was my first time using AI throughout a full code project, and it proved to be a valuable development partner. It helped with quick syntax lookups, package and pattern suggestions, guidance in unfamiliar areas (streamlit, GitHub pages), and occasional tutoring when docs fell short. 
+I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions but leverage AI to help speed up learning and unblock me when needed. At times this saved hours while at other points the traditional path may have been faster, but this experience gave me better appreciation for how/when AI can be most helpful.
 
 #### 4. Standing Up a Site with GitHub Pages
 
-I don’t have a background in web development, so GitHub Pages was an appealing way to publish a site without needing to build a front end from scratch. Relying on Markdown and a lightweight theme let me focus on content rather than HTML/CSS. I’m still interested in improving the site’s appearance and learning more about front‑end development over time, but GitHub Pages made it possible to get something functional online quickly — similar to how Streamlit accelerated the app side.
+I don’t have a background in web development, so GitHub Pages was an appealing way to publish a site without needing to build a front end from scratch. Relying on Markdown and a lightweight theme let me focus on content rather than HTML/CSS. I’m still interested in improving the site’s appearance and learning more about front‑end development over time, but GitHub Pages made it possible to get something functional online quickly — similar to how Streamlit accelerated app development.
 
 ## Next Steps
 
