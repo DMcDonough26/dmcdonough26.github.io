@@ -54,17 +54,17 @@ Once the app is deployed, this section will expand to cover the deployment archi
 
 #### 1. Working with the NBA API
 
-While I’ve used the NBA API before, this project gave me a clearer understanding of its rate limits, available data elements, and how information is organized across player, team, and game-level endpoints.
+While I’ve used the NBA API before, this project gave me a clearer understanding of its rate limits, data elements, and how information is organized across player, team, and game-level endpoints.
 
 #### 2. Building an App in Streamlit
 
-Before this project, I assumed building anything browser based (Flask, Django) required a heavy lift. Streamlit changed that. It took time to understand its execution model — especially that the entire script reruns on every UI interaction — but once I wrapped my head around that and leaned into caching, it became a powerful, lightweight way to build interactive apps that I can now use on future projects.
+Before this project, I assumed building anything browser-based (Flask, Django) required a heavy lift. Streamlit changed that. It took time to understand its execution model — especially that the entire script reruns on every UI interaction — but once I wrapped my head around that and leaned into caching, it became a powerful, lightweight way to build interactive apps that I can now use on future projects.
 
 #### 3. Using AI as a Development Partner
 
 This was my first time using AI throughout a full code project, and it proved to be a valuable development partner. It helped with quick syntax lookups, guidance in unfamiliar areas (streamlit, GitHub pages), and occasional tutoring when docs fell short.
 
-I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions but leverage AI to help speed up learning and unblock me when needed. At times this saved hours while at other points the traditional path may have been faster, but this experience gave me better appreciation for how and where AI can be most helpful.
+I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions but leverage AI to help speed up learning and unblock me when needed. At times this saved hours, while at other points the traditional path may have been faster, but this experience gave me better appreciation for how and where AI can be most helpful.
 
 #### 4. Standing Up a Site with GitHub Pages
 
