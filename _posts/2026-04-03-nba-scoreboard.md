@@ -89,7 +89,7 @@ I plan to incorporate a past project that visualizes NBA rotations. Integrating 
 
 Another future addition is refreshing earlier work on clustering players using tracking data and visualizing those relationships through network analysis. The goal would be to quickly orient users to the roles and relationships that may take time to understand. It’s almost like the office politics of an NBA offense.
 
-### 5. Expanding Player Level Data
+### 5. Expanding Player-Level Data
 
 Most of the current dashboard operates at the team level. Incorporating more analysis and visuals at the player level feels like an unexplored opportunity. I want to let feature enhancements be organic though, so time will tell the best way to add additional player-level information that genuinely enhances the current product.
 
