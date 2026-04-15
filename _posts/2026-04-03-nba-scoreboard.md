@@ -85,31 +85,27 @@ I don’t have a background in web development, so GitHub Pages was an appealing
 ## Next Steps
 
 This project opened up a number of exciting directions to continue building, refining, and expanding the app. Several enhancements are already on the roadmap:
-### 1. Deploying the App on Streamlit
-
-The next major milestone is deploying the app so it can be easily accessed by other users. Once deployed, I’ll document the hosting architecture, code modifications, and additional learnings through this process.
-
-### 2. Enhancing the Website
+### 1. Enhancing the Website
 
 The GitHub Pages site will continue to evolve — improving layout, navigation, and visual polish, and adding more interactive elements to better showcase the app and its underlying analysis.
 
-### 3. Adding a Rotation Visualization
+### 2. Adding a Rotation Visualization
 
 I plan to incorporate a past project that visualizes NBA rotations. Integrating this as an additional chart will give users a clearer sense of substitution patterns, lineup stability, and how teams manage minutes across game flow, particularly for teams they are not watching regularly.
 
-### 4. Reviving Player Clustering & Network Analysis
+### 3. Reviving Player Clustering & Network Analysis
 
 Another future addition is refreshing earlier work on clustering players using tracking data and visualizing those relationships through network analysis. The goal would be to quickly orient users to the roles and relationships that may take time to understand. It’s almost like the office politics of an NBA offense.
 
-### 5. Expanding Player-Level Data
+### 4. Expanding Player-Level Data
 
 Most of the current dashboard operates at the team level. Incorporating more analysis and visuals at the player level feels like an unexplored opportunity. I want to let feature enhancements be organic though, so time will tell the best way to add additional player-level information that genuinely enhances the current product.
 
-### 6. Estimating Real Time Remaining Game Duration
+### 5. Estimating Real Time Remaining Game Duration
 
 A future enhancement to the scoreboard is a predictive model that estimates how much real time is left in a game based on game state (score margin, pace, foul situation, timeouts, etc.). This would be an additional data point to help users decide whether a game is worth tuning into live.
 
-### 7. Waterfall Attribution of Score Margin
+### 6. Waterfall Attribution of Score Margin
 
 This chart would leverage live box score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is the quality of those chances (by how often they get to the line and how efficiently they score from the field)?
 
