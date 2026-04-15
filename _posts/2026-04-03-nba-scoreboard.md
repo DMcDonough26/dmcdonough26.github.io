@@ -7,8 +7,8 @@ permalink: /nba-scoreboard/
 
 This streamlit app provides a real-time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game rating formula and dive into interactive visuals for any matchup.
 
-Link to the app: https://nbawatch.streamlit.app <br>
-Link to the GitHub repo: https://github.com/DMcDonough26/nba_scoreboard_2026
+Check out the live app here: [nbawatch.streamlit.app](https://nbawatch.streamlit.app) <br>
+And the GitHub repo here: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboard_2026)
 
 ##### Screenshot of Scoreboard
 
