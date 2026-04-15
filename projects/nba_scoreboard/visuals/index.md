@@ -28,7 +28,7 @@ This chart illustrates the variables within the style category of the ratings wi
 
 The chart above carries over our example with Miami, and actually made me realize I needed to expand my Y-axis range for just how extreme Miami’s distaste for (and inefficiency with) the pick and roll has become. A play type at the center of this chart is run with league-average frequency and efficiency. Plays to the left are less frequent, and plays to the bottom are less efficient. For Miami, you can see them running ball screens less (handoff and pick and roll) and moving more towards that Memphis offense (iso and spotup).
 
-The second chart below features the #1 offense of the Denver Nuggets. What jumps off the page is breadth of efficiency, which most prominently stems from playing through Jokic in the post whether he passes to a teammate (via handoff, split actions, or cuts) or puts the ball up himself.
+The second chart below features the #1 offense of the Denver Nuggets. What jumps off the page is the breadth of efficiency, which most prominently stems from playing through Jokic in the post whether he passes to a teammate (via handoff, split actions, or cuts) or puts the ball up himself.
 <img class="zoomable" src="/projects/nba_scoreboard/images/play types nuggets.png" alt="Play Types Denver">
 
 #### 4. Shot Location Distributions
