@@ -21,7 +21,7 @@ The lollipop chart was chosen to make it easy to compare just the two teams in t
 #### 2. Style‑of‑Play Scatter / Beeswarm
 <img class="zoomable" src="/projects/nba_scoreboard/images/style.png" alt="Style">
 
-This chart illustrates the variables within the style category of the ratings with a visual similar to a bee swarm chart. The example above illustrates not just how fast Miami has been playing, but also how deliberately they have bucked the at times monotonous trend of spread pick and roll. Instead, they've revamped their offense, drawing inspiration form last season’s Memphis team, which focused on dribble-drive penetration, kickouts, and cuts. Play diversity is calculated as the sum of the squared differences of each team's frequency of running each play type compared to the league average frequency for that play type.
+This chart illustrates the variables within the style category of the ratings with a visual similar to a bee swarm chart. The example above illustrates not just how fast Miami has been playing, but also how deliberately they have bucked the at-times monotonous trend of spread pick and roll. Instead, they've revamped their offense, drawing inspiration form last season’s Memphis team, which focused on dribble-drive penetration, kickouts, and cuts. Play diversity is calculated as the sum of the squared differences of each team's frequency of running each play type and the league average frequency for that play type.
 
 #### 3. Play Type Frequency & Efficiency
 <img class="zoomable" src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
