@@ -105,13 +105,13 @@ Most of the current dashboard operates at the team level. Incorporating more ana
 
 A future enhancement to the scoreboard is a predictive model that estimates how much real time is left in a game based on game state (score margin, pace, foul situation, timeouts, etc.). This would be an additional data point to help users decide whether a game is worth tuning into live.
 
-### 6. Waterfall Attribution of Score Margin
+### 6. Win Probabilities
+
+Similar to the time remaning feature, a live win probability for each game (either scraped or built from a model) would add context to the game selection decision.
+
+### 7. Waterfall Attribution of Score Margin
 
 This chart would leverage live box score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is the quality of those chances (by how often they get to the line and how efficiently they score from the field)?
-
-### 7. Win Probabilities
-
-Either scraping or building a model to estimate win probably based on live game data.
 
 ## Acknowledegments
 
