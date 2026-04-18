@@ -109,6 +109,10 @@ A future enhancement to the scoreboard is a predictive model that estimates how 
 
 This chart would leverage live box score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is the quality of those chances (by how often they get to the line and how efficiently they score from the field)?
 
+### 7. Win Probabilities
+
+Either scraping or building a model to estimate win probably based on live game data.
+
 ## Acknowledegments
 
 To be completed
