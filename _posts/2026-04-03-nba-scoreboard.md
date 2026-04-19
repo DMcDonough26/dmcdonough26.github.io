@@ -5,7 +5,7 @@ permalink: /nba-scoreboard/
 ---
 ## Summary
 
-This streamlit app provides a real-time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game rating formula and dive into interactive visuals for any matchup.
+This streamlit app provides a real-time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game-rating formula and dive into interactive visuals for any matchup.
 
 Check out the live app here: [nbawatch.streamlit.app](https://nbawatch.streamlit.app) <br>
 And the GitHub repo here: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboard_2026)
@@ -55,7 +55,7 @@ For the charts section, after the user selects both a game and a side of the bal
 [Click here to learn more about the visuals](/projects/nba_scoreboard/visuals/)
 
 ## Architecture
-The app is structured to feel fast and responsive while avoiding unnecessary API calls. Rating related UI elements render first so caching can begin immediately, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, injury report, odds). After the initial boot up, data is fetched once, cached, and reused across the scoreboard and chart tabs for a clean, predictable execution flow.
+The app is structured to feel fast and responsive while avoiding unnecessary API calls. Rating-related UI elements render first so caching can begin immediately, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, injury report, odds). After the initial boot up, data is fetched once, cached, and reused across the scoreboard and chart tabs for a clean, predictable execution flow.
 
 Building this architecture required solving several challenges that surfaced during deployment. Streamlit’s cache is global across users, which meant I needed to shorten the cache and auto refresh the app during live game play, to ensure that new visitors always receive fresh data. Additionally, I added a 30 second refresh cooldown to prevent users from spamming the API, and implemented exception handling for edge cases like days with no NBA games or partial upstream outages.
 
@@ -97,21 +97,23 @@ I plan to incorporate a past project that visualizes NBA rotations. Integrating 
 
 Another future addition is refreshing earlier work on clustering players using tracking data and visualizing those relationships through network analysis. The goal would be to quickly orient users to the roles and relationships that may take time to understand. It’s almost like the office politics of an NBA offense.
 
-### 4. Expanding Player-Level Data
+### 4. Estimating Real Time Remaining Game Duration
+
+We've all clicked on a game *near* the end and thought (or been asked by our spouses): "how much longer is this *really* going to take?" A future enhancement to the scoreboard is a predictive model that estimates how much real time is left in a game based on game state (score margin, pace, foul situation, timeouts, etc.). This would be an additional data point to help users decide whether a game is worth tuning into live.
+
+### 5. Win Probabilities
+
+Similar to the time-remaning feature, a live win probability for each game (either scraped or built from a model) would add context to the game selection decision.
+
+### 6. Waterfall Attribution of Score Margin
+
+This chart would leverage live-box-score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is the quality of those chances (by how often they get to the line and how efficiently they score from the field)?
+
+Perhaps this could even have a pre-tipoff version as well, or one that visualizes how teams are performing relative to expectation in these areas (building on the current four factors chart).
+
+### 7. Expanding Player-Level Data
 
 Most of the current dashboard operates at the team level. Incorporating more analysis and visuals at the player level feels like an unexplored opportunity. I want to let feature enhancements be organic though, so time will tell the best way to add additional player-level information that genuinely enhances the current product.
-
-### 5. Estimating Real Time Remaining Game Duration
-
-A future enhancement to the scoreboard is a predictive model that estimates how much real time is left in a game based on game state (score margin, pace, foul situation, timeouts, etc.). This would be an additional data point to help users decide whether a game is worth tuning into live.
-
-### 6. Win Probabilities
-
-Similar to the time remaning feature, a live win probability for each game (either scraped or built from a model) would add context to the game selection decision.
-
-### 7. Waterfall Attribution of Score Margin
-
-This chart would leverage live box score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is the quality of those chances (by how often they get to the line and how efficiently they score from the field)?
 
 ## Acknowledegments
 
