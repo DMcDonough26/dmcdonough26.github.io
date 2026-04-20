@@ -13,4 +13,4 @@ layout: page
 
 # Darts
 
-Updated darts app coming soon.
+Gameplay and Training Web App (Coming Soon)
