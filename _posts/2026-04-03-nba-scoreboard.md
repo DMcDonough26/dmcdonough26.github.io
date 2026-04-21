@@ -56,24 +56,21 @@ For the charts section, after the user selects both a game and a side of the bal
   align-items: flex-start;
   max-width: 100%;
 ">
-  <div style="flex: 1;">
-    <img
-      class="zoomable"
-      src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
-      alt="Scoreboard Preview"
-      style="width: 100%; height: 300px; object-fit: cover;"
-    >
-  </div>
+  <img
+    class="zoomable"
+    src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
+    alt="Scoreboard Preview"
+    style="max-width: 50%; max-height: 350px; width: auto; height: auto; object-fit: contain;"
+  >
 
-  <div style="flex: 1;">
-    <img
-      class="zoomable"
-      src="/projects/nba_scoreboard/images/four factors.png"
-      alt="Four Factors"
-      style="width: 100%; height: 300px; object-fit: cover;"
-    >
-  </div>
+  <img
+    class="zoomable"
+    src="/projects/nba_scoreboard/images/four factors.png"
+    alt="Four Factors"
+    style="max-width: 50%; max-height: 350px; width: auto; height: auto; object-fit: contain;"
+  >
 </div>
+
 
 
 
@@ -87,7 +84,7 @@ The app is structured to feel fast and responsive while avoiding unnecessary API
 
 Building this architecture required solving several challenges that surfaced during deployment. Streamlit’s cache is global across users, which meant I needed to shorten the cache and auto refresh the app during live game play, to ensure that new visitors always receive fresh data. Additionally, I added a 30 second refresh cooldown to prevent users from spamming the API, and implemented exception handling for edge cases like days with no NBA games or partial upstream outages.
 
-Running on Streamlit Cloud introduced its own constraints. Cloud IPs face stricter rate limits than local development, so the pipeline had to be more conservative with the timing of API calls. Timezone differences between my local machine (Central Time) and the cloud environment (UTC) also required explicit normalization to avoid mismatches in game day logic. Finally, dependency management became part of the architecture itself: some packages needed to be pinned to specific versions for reproducibility, while others had to remain flexible to match Streamlit’s supported environment.
+Running on Streamlit Cloud introduced its own constraints. Cloud IPs face stricter rate limits than local development, so the pipeline had to be more conservative with the timing of API calls. Timezone differences between my local machine (Central Time) and the cloud environment (UTC) also required explicit normalization to avoid mismatches in game day logic. Finally, dependency management became part of the architecture itself: Some packages needed to be pinned to specific versions for reproducibility, while others had to remain flexible to match Streamlit’s supported environment.
 
 
 ## Learnings
@@ -102,9 +99,9 @@ Before this project, I assumed building anything browser-based (Flask, Django) r
 
 #### 3. Using AI as a Development Partner
 
-This was my first time using AI throughout a full code project, and it proved to be a valuable development partner. It helped with quick syntax lookups, guidance in unfamiliar areas (streamlit, GitHub pages), and occasional tutoring when docs fell short.
+This was my first time using AI throughout a full code project, and it proved to be a valuable development partner. It helped with quick syntax lookups, guidance in unfamiliar areas (Streamlit, GitHub pages), and occasional tutoring when docs fell short.
 
-I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions but leverage AI to help speed up learning and unblock me when needed. At times this saved hours, while at other points the traditional path may have been faster, but this experience gave me better appreciation for how and where AI can be most helpful.
+I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions, but leverage AI to help speed up learning and unblock obstacles. At times this saved hours, while at other points the traditional path may have been faster, but this experience gave me better appreciation for how and where AI can be most helpful.
 
 #### 4. Standing Up a Site with GitHub Pages
 
