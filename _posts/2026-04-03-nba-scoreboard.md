@@ -55,24 +55,25 @@ For the charts section, after the user selects both a game and a side of the bal
   gap: 16px;
   max-width: 100%;
 ">
-  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+  <div style="flex: 1; height: 300px; overflow: hidden;">
     <img
       class="zoomable"
       src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
       alt="Scoreboard Preview"
-      style="max-height: 100%; max-width: 100%; object-fit: contain;"
+      style="height: 100%; width: 100%; object-fit: cover;"
     >
   </div>
 
-  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+  <div style="flex: 1; height: 300px; overflow: hidden;">
     <img
       class="zoomable"
       src="/projects/nba_scoreboard/images/four factors.png"
       alt="Four Factors"
-      style="max-height: 100%; max-width: 100%; object-fit: contain;"
+      style="height: 100%; width: 100%; object-fit: cover;"
     >
   </div>
 </div>
+
 
 
 
