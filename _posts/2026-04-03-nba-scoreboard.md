@@ -50,37 +50,7 @@ There are two primary visuals on the dashboard: The scoreboard and the matchup c
 The scoreboard organizes live, upcoming, and completed games and surfaces information needed to decide whether a matchup is worth watching and how to watch.
 For the charts section, after the user selects both a game and a side of the ball (e.g., the Nuggets' offense vs. the Spurs' defense), four interactive visuals bring context to the game across [Dean Oliver’s four factors (as explained by Ben Falk)](https://cleaningtheglass.com/stats/guide/league_four_factors), style of play, play types, and shot locations.
 
-<div style="
-  display: flex;
-  gap: 16px;
-  max-width: 100%;
-">
-  <div style="flex: 1; height: 300px; overflow: hidden;">
-    <img
-      class="zoomable"
-      src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
-      alt="Scoreboard Preview"
-      style="height: 100%; width: 100%; object-fit: cover;"
-    >
-  </div>
-
-  <div style="flex: 1; height: 300px; overflow: hidden;">
-    <img
-      class="zoomable"
-      src="/projects/nba_scoreboard/images/four factors.png"
-      alt="Four Factors"
-      style="height: 100%; width: 100%; object-fit: cover;"
-    >
-  </div>
-</div>
-
-
-
-
-
-
-
-
+<img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors">
 
 [Click here to learn more about the visuals.](/projects/nba_scoreboard/visuals/)
 
