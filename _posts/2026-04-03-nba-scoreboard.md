@@ -46,20 +46,31 @@ The app scores each matchup using a customizable formula that blends game state,
 [Click here to learn more about the ratings.](/projects/nba_scoreboard/ratings/)
 
 ## Dashboard Visuals
-There are two primary visuals on the dashboard: the scoreboard and the matchup charts.
+There are two primary visuals on the dashboard: The scoreboard and the matchup charts.
 The scoreboard organizes live, upcoming, and completed games and surfaces information needed to decide whether a matchup is worth watching and how to watch.
 For the charts section, after the user selects both a game and a side of the ball (e.g., the Nuggets' offense vs. the Spurs' defense), four interactive visuals bring context to the game across Dean Oliver’s four factors, style of play, play types, and shot locations.
 
-<div style="display: flex; gap: 16px; align-items: flex-start; max-width: 100%;">
-  <img class="zoomable"
-       src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
-       alt="Scoreboard Preview"
-       style="height: 300px; object-fit: cover; max-width: 100%;">
-  <img class="zoomable"
-       src="/projects/nba_scoreboard/images/four factors.png"
-       alt="Four Factors"
-       style="height: 300px; object-fit: cover; max-width: 100%;">
+<div style="
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+">
+  <img
+    class="zoomable"
+    src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
+    alt="Scoreboard Preview"
+    style="width: 50%; max-width: 50%; height: auto; object-fit: cover;"
+  >
+  <img
+    class="zoomable"
+    src="/projects/nba_scoreboard/images/four factors.png"
+    alt="Four Factors"
+    style="width: 50%; max-width: 50%; height: auto; object-fit: cover;"
+  >
 </div>
+
 
 
 
