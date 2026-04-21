@@ -5,10 +5,10 @@ permalink: /nba-scoreboard/
 ---
 ## Summary
 
-This streamlit app provides a real-time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game-rating formula and dive into interactive visuals for any matchup.
+This Streamlit app provides a real-time NBA dashboard that pulls live data from multiple sources and helps fans quickly identify the most watchable game on TV. Users can tune the game-rating formula and dive into interactive visuals for any matchup.
 
-Check out the live app here: [nbawatch.streamlit.app](https://nbawatch.streamlit.app) <br>
-And the GitHub repo here: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboard_2026)
+Web app: [nbawatch.streamlit.app](https://nbawatch.streamlit.app) <br>
+GitHub repo: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboard_2026)
 
 #### Screenshot of Scoreboard
 
@@ -19,23 +19,23 @@ And the GitHub repo here: [nba_scoreboard_2026](https://github.com/DMcDonough26/
 <img class="zoomable" src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
 
 ## Background
-This project started years ago, when I was in grad school and had just moved from New York to Chicago. I bought League Pass so I could keep up with the Knicks, and most nights I’d get home from class, open my laptop to do a little work, and want to throw a game on in the background.
+This project started years ago, when I was in grad school and had just moved from New York to Chicago. I bought NBA League Pass so I could keep up with the Knicks, and most nights I’d get home from class, open my laptop to do a little work, and want to throw a game on in the background.
 
-The problem was that the NBA hadn’t staggered tipoff times enough to make full-league viewing easy. The east coast games were closing, the west coast games were tipping off, and I was often left wondering: out of all of these games, **what’s the best game on TV right now?**
+The problem was that the NBA hadn’t staggered tipoff times enough to make full-league viewing easy. The East Coast games were closing, the West Coast games were tipping off, and I was often left wondering: Out of all of these games, **what’s the best game on TV right now?**
 
-Further complicating things was that the answer was always changing, and the NBA had not yet created a RedZone-style product to automatically plug the viewer into the most exciting live action.
+Further complicating things was that the answer was always changing — and the NBA had not yet created an NFL RedZone-style product to automatically plug the viewer into the most exciting live action.
 
 Initially this began as a small project to learn web scraping, but over time I wanted this to evolve as both an analytics project (data pipeline, UI) and a data product. I wanted to allow the user to provide input on game ratings, and wanted to provide context on style contrasts to illuminate the subtle game-within-the-game that might be happening in any given matchup.
 
-This version of the project is the evolution of that original idea: a real-time dashboard that monitors the scoreboard for you, recommends the best game based on what *you* love about the league, and provides context that enhances the viewing experience.
+This version of the project is the evolution of that original idea: A real-time dashboard that monitors the scoreboard for you, recommends the best game based on what *you* love about the league, and provides context that enhances the viewing experience.
 
 ## Data Pipeline
 
-The app brings together live NBA data, advanced metrics, injuries, rivalries, team logos, and external rankings into a single unified dataset that updates throughout the night. A lightweight cleaning and normalization layer makes all these sources interoperable and ready for the game‑rating model.
+The app brings together live NBA data, advanced metrics, injuries, team logos, rivalries, and external rankings into a single unified dataset that updates throughout the night. A lightweight cleaning and normalization layer makes all these sources interoperable and ready for the game‑rating model.
 
 ![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
 
-[Click here to learn more about the pipeline](/projects/nba_scoreboard/pipeline/)
+[Click here to learn more about the pipeline.](/projects/nba_scoreboard/pipeline/)
 
 ## Game Ratings
 
@@ -43,16 +43,20 @@ The app scores each matchup using a customizable formula that blends game state,
 
 <img class="zoomable" src="/projects/nba_scoreboard/images/ratings.png" alt="Game Ratings">
 
-[Click here to learn more about the ratings](/projects/nba_scoreboard/ratings/)
+[Click here to learn more about the ratings.](/projects/nba_scoreboard/ratings/)
 
 ## Dashboard Visuals
 There are two primary visuals on the dashboard: the scoreboard and the matchup charts.
 The scoreboard organizes live, upcoming, and completed games and surfaces information needed to decide whether a matchup is worth watching and how to watch.
 For the charts section, after the user selects both a game and a side of the ball (e.g., the Nuggets' offense vs. the Spurs' defense), four interactive visuals bring context to the game across Dean Oliver’s four factors, style of play, play types, and shot locations.
 
-<img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors">
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+  <img class="zoomable" src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Scoreboard Preview" style="width: 50%;">
+  <img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors" style="width: 50%;">
+</div>
 
-[Click here to learn more about the visuals](/projects/nba_scoreboard/visuals/)
+
+[Click here to learn more about the visuals.](/projects/nba_scoreboard/visuals/)
 
 ## Architecture
 The app is structured to feel fast and responsive while avoiding unnecessary API calls. Rating-related UI elements render first so caching can begin immediately, and a refresh button clears only the pieces that need updating (timestamp, live scoreboard, injury report, odds). After the initial boot up, data is fetched once, cached, and reused across the scoreboard and chart tabs for a clean, predictable execution flow.
