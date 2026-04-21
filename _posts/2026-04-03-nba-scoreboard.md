@@ -51,9 +51,12 @@ The scoreboard organizes live, upcoming, and completed games and surfaces inform
 For the charts section, after the user selects both a game and a side of the ball (e.g., the Nuggets' offense vs. the Spurs' defense), four interactive visuals bring context to the game across Dean Oliver’s four factors, style of play, play types, and shot locations.
 
 <div style="display: flex; gap: 16px; align-items: flex-start;">
-  <img class="zoomable" src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Scoreboard Preview" style="width: 50%;">
-  <img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png" alt="Four Factors" style="width: 50%;">
+  <img class="zoomable" src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
+       alt="Scoreboard Preview" style="height: 300px; object-fit: cover;">
+  <img class="zoomable" src="/projects/nba_scoreboard/images/four factors.png"
+       alt="Four Factors" style="height: 300px; object-fit: cover;">
 </div>
+
 
 
 [Click here to learn more about the visuals.](/projects/nba_scoreboard/visuals/)
