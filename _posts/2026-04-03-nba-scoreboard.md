@@ -53,23 +53,27 @@ For the charts section, after the user selects both a game and a side of the bal
 <div style="
   display: flex;
   gap: 16px;
-  align-items: flex-start;
   max-width: 100%;
 ">
-  <img
-    class="zoomable"
-    src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
-    alt="Scoreboard Preview"
-    style="max-width: 50%; max-height: 350px; width: auto; height: auto; object-fit: contain;"
-  >
+  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+    <img
+      class="zoomable"
+      src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png"
+      alt="Scoreboard Preview"
+      style="max-height: 100%; max-width: 100%; object-fit: contain;"
+    >
+  </div>
 
-  <img
-    class="zoomable"
-    src="/projects/nba_scoreboard/images/four factors.png"
-    alt="Four Factors"
-    style="max-width: 50%; max-height: 350px; width: auto; height: auto; object-fit: contain;"
-  >
+  <div style="flex: 1; height: 300px; display: flex; justify-content: center; align-items: center;">
+    <img
+      class="zoomable"
+      src="/projects/nba_scoreboard/images/four factors.png"
+      alt="Four Factors"
+      style="max-height: 100%; max-width: 100%; object-fit: contain;"
+    >
+  </div>
 </div>
+
 
 
 
@@ -101,11 +105,11 @@ Before this project, I assumed building anything browser-based (Flask, Django) r
 
 This was my first time using AI throughout a full code project, and it proved to be a valuable development partner. It helped with quick syntax lookups, guidance in unfamiliar areas (Streamlit, GitHub pages), and occasional tutoring when docs fell short.
 
-I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions, but leverage AI to help speed up learning and unblock obstacles. At times this saved hours, while at other points the traditional path may have been faster, but this experience gave me better appreciation for how and where AI can be most helpful.
+I didn’t delegate the entire project and edit the results. Instead, I wanted to remain in control of the architecture and decisions, but leverage AI to help speed up learning and unblock obstacles. At times, this saved hours, while at other points the traditional path may have been faster, but overall this experience gave me better appreciation for how and where AI can be most helpful.
 
 #### 4. Standing Up a Site with GitHub Pages
 
-I don’t have a background in web development, so GitHub Pages was an appealing way to publish a site without needing to build a front end from scratch. Relying on Markdown and a lightweight theme let me focus on content rather than HTML/CSS. I’m still interested in improving the site’s appearance and learning more about front‑end development over time, but GitHub Pages made it possible to get something functional online quickly — similar to how Streamlit accelerated app development.
+I don’t have a background in web development, so GitHub Pages was an appealing way to publish a site without needing to build a front end from scratch. Relying on Markdown and a lightweight theme let me focus on content rather than HTML/CSS. I’m still interested in improving the site’s appearance and learning more about front‑end development, but GitHub Pages made it possible to get something functional online quickly — similar to how Streamlit accelerated app development.
 
 ## Next Steps
 
