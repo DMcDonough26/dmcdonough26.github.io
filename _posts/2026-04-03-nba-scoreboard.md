@@ -87,11 +87,11 @@ I don’t have a background in web development, so GitHub Pages was an appealing
 This project opened up a number of exciting directions to continue building, refining, and expanding the app. Several enhancements are already on the roadmap:
 ### 1. Enhancing the Website
 
-The GitHub Pages site will continue to evolve — improving layout, navigation, and visual polish, and adding more interactive elements to better showcase the app and its underlying analysis.
+I will continue to evolve the GitHub Pages site — improving layout, navigation, and visual polish, and adding more interactive elements to better showcase the app and its underlying analysis.
 
 ### 2. Adding a Rotation Visualization
 
-I plan to incorporate a past project that visualizes NBA rotations. Integrating this as an additional chart will give users a clearer sense of substitution patterns, lineup stability, and how teams manage minutes across game flow, particularly for teams they are not watching regularly.
+I plan to incorporate a past project that visualizes NBA rotations. Integrating this as an additional chart will give users a clearer sense of substitution patterns, lineup stability, and how teams manage minutes across game flow, which will be particularly helpful for teams they don’t watch regularly.
 
 ### 3. Reviving Player Clustering & Network Analysis
 
@@ -99,15 +99,15 @@ Another future addition is refreshing earlier work on clustering players using t
 
 ### 4. Estimating Real Time Remaining Game Duration
 
-We've all clicked on a game *near* the end and thought (or been asked by our spouses): "how much longer is this *really* going to take?" A future enhancement to the scoreboard is a predictive model that estimates how much real time is left in a game based on game state (score margin, pace, foul situation, timeouts, etc.). This would be an additional data point to help users decide whether a game is worth tuning into live.
+We've all turned on a game *near* the end and thought (or been asked by our spouses): "How much longer is this *really* going to take?" A future enhancement to the scoreboard would be a predictive model that estimates how much real time is left in a game based on game state (score margin, pace, foul situation, timeouts, etc.). This would be an additional data point to help users decide whether a game is worth tuning into live.
 
 ### 5. Win Probabilities
 
-Similar to the time-remaning feature, a live win probability for each game (either scraped or built from a model) would add context to the game selection decision.
+Similar to the time-remaining feature, a live win probability for each game (either scraped or built from a model) would add context to the game selection decision.
 
 ### 6. Waterfall Attribution of Score Margin
 
-This chart would leverage live-box-score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is the quality of those chances (by how often they get to the line and how efficiently they score from the field)?
+This chart would leverage live-box-score data to decompose the lead into the four factors in a sequential manner. It would help the user understand why a particular team is ahead: Is it the quantity of scoring chances (enabled by not turning the ball over and getting offensive rebounds) or is it the quality of those chances (enabled by how often they get to the line and how efficiently they score from the field)?
 
 Perhaps this could even have a pre-tipoff version as well, or one that visualizes how teams are performing relative to expectation in these areas (building on the current four factors chart).
 
@@ -115,7 +115,7 @@ Perhaps this could even have a pre-tipoff version as well, or one that visualize
 
 Most of the current dashboard operates at the team level. Incorporating more analysis and visuals at the player level feels like an unexplored opportunity. I want to let feature enhancements be organic though, so time will tell the best way to add additional player-level information that genuinely enhances the current product.
 
-## Acknowledegments
+## Acknowledgements
 
 To be completed
 
