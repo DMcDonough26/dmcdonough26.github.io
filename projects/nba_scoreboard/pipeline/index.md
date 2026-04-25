@@ -15,4 +15,4 @@ The pipeline is designed to be a considerate data consumer. I pull everything up
 The end result is a unified dataset that updates continuously throughout the night and feeds both the game‑rating model and the interactive visuals in the app.
 
 ![Data Pipeline](/projects/nba_scoreboard/images/data pipeline.png)
-[Return to the summary page](/nba-scoreboard/)
+[Return to the summary page.](/nba-scoreboard/)
