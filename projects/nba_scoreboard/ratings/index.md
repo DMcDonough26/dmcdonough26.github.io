@@ -14,19 +14,19 @@ Screenshot of ratings with dropdowns expanded:
 <img class="zoomable" src="/projects/nba_scoreboard/images/ratings.png" alt="Game Ratings">
 
 #### Category 1: Game State
-The most influential factor — how close the game is and how much time remains.
+This is the most influential factor: How close the game is and how much time remains.
 A third variable in this category, game flow, captures dynamics like number of ties/lead changes, the size of the largest lead, and whether there has been a meaningful comeback.
 
 #### Category 2: Matchup Quality
-How good the matchup looks on paper: team strength, injury impact (measured by prior‑year VORP of injured players),combined rest, and offensive/defensive ratings.
+How good the matchup looks on paper: Team strength, injury impact (measured by prior‑year [Value Over Replacement Player](https://www.basketball-reference.com/about/bpm2.html) of injured players), combined rest, and offensive/defensive ratings.
 
-#### Category 3: Matchup Context
-Narrative and stylistic intrigue — rivalry status, style contrasts, total star power (based on the NBA’s official star designation), whether the game is nationally televised, and the Lowe/Mahoney team ratings.
+#### Category 3: Narrative Context
+Narrative and stylistic intrigue: Rivalry status, style contrasts, total star power (based on the NBA’s official star designation), whether the game is nationally televised, and the [Lowe/Mahoney team ratings.](https://www.youtube.com/watch?v=X_qMdFI2N_g)
 
 #### Category 4: Style of Play
-How the teams actually play: diversity of play types, foul rate, pace, ball and player movement (both pace‑adjusted), and equality of shot distribution.
+How the teams actually play: Diversity of play types, foul rate, pace, ball and player movement (both pace‑adjusted), and equality of shot distribution.
 
 #### Rating Formula
 For many variables, a value is computed for each team and averaged across the matchup. All variables are normalized to a common scale, then weighted according to user input. Normalization required establishing a distribution for each variable — sometimes comparing a team’s season‑to‑date performance against all other teams (e.g., style variables), other times comparing a single game against historical distributions from prior seasons (e.g., game flow and margin of victory).
 
-[Return to main NBA scoreboard page](/nba-scoreboard/)
+[Return to main summary page.](/nba-scoreboard/)
