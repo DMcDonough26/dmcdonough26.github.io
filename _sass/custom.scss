@@ -67,29 +67,31 @@ img {
   padding: 6px;
 }
 
-/* Figure wrapper for captioned images */
+/* Captioned figure wrapper */
 figure.with-caption {
-  border: 0.25px solid #000;
-  padding: 6px;              /* internal spacing */
+  border: 0.25px solid #000 !important;
+  padding: 12px !important;        /* force visible spacing */
   display: inline-block;
   background: #fdfdfd;
+  box-sizing: border-box;          /* ensures padding is inside border */
 }
 
-/* Override ALL global img styling inside figure */
+/* Image inside captioned figure */
 figure.with-caption img {
-  border: none !important;
-  padding: 0 !important;
-  margin: 0;
+  border: none !important;         /* override global img border */
+  padding: 0 !important;           /* override global img padding */
+  margin: 0 !important;
   display: block;
-  width: auto;        /* ← THIS is the missing piece */
-  max-width: 100%;    /* keeps it responsive without killing padding */
+  width: auto !important;          /* prevents edge-to-edge stretching */
+  max-width: 100% !important;      /* keeps responsiveness */
+  box-sizing: border-box;
 }
 
-
-
-/* Caption styling (scoped to captioned figures only) */
+/* Caption styling */
 figure.with-caption figcaption {
   font-weight: bold;
-  font-size: 10px;           /* or 14px if you prefer */
-  margin-top: 6px;
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
 }
+
