@@ -59,8 +59,12 @@ img {
   padding: 6px
 }
 
-
 figure {
   border: 0.25px solid #000 !important;
   padding: 6px
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 14px;
 }
