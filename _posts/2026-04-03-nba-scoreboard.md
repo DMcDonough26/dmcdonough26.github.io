@@ -12,12 +12,12 @@ GitHub repo: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboar
 
 <figure>
 <img class="zoomable" src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Scoreboard Preview">
-<figcaption> <b>Screenshot of Scoreboard</b> </figcaption>
+<figcaption> Screenshot of Scoreboard </figcaption>
 </figure>
 
 <figure>
 <img class="zoomable" src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
-<figcaption> <b>Screenshot of Play Type Chart</b> </figcaption>
+<figcaption> Screenshot of Play Type Chart </figcaption>
 </figure>
 
 ## Background
