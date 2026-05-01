@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What's the Best NBA Game on TV Right Now?"
+title: "What's the Best Game on TV Right Now?"
 permalink: /nba-scoreboard/
 ---
 ## Summary
