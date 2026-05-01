@@ -78,11 +78,13 @@ figure.with-caption {
 /* Override ALL global img styling inside figure */
 figure.with-caption img {
   border: none !important;
-  padding: 0 !important;     /* THIS is the missing piece */
+  padding: 0 !important;
   margin: 0;
   display: block;
-  width: 100%;               /* optional */
+  width: auto;        /* ← THIS is the missing piece */
+  max-width: 100%;    /* keeps it responsive without killing padding */
 }
+
 
 
 /* Caption styling (scoped to captioned figures only) */
