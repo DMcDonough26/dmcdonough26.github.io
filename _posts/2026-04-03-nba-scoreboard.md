@@ -10,13 +10,13 @@ This Streamlit app provides a real-time NBA dashboard that pulls live data from 
 Web app: [nbawatch.streamlit.app](https://nbawatch.streamlit.app) <br>
 GitHub repo: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboard_2026)
 
-<figure>
-<img class="zoomable" src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Scoreboard Preview">
+<figure class="zoomable">
+<img src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Scoreboard Preview">
 <figcaption> Screenshot of Scoreboard </figcaption>
 </figure>
 
-<figure>
-<img class="zoomable" src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
+<figure class="zoomable">
+<img src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
 <figcaption> Screenshot of Play Type Chart </figcaption>
 </figure>
 
