@@ -5,7 +5,7 @@ layout: page
 
 # Basketball
 
-<a href="/nba-scoreboard/" style="font-size: 22px;">
+<a href="/nba-scoreboard/" style="font-size: 20px;">
   What's the Best NBA Game on TV Right Now?
 </a>
 
@@ -13,4 +13,4 @@ layout: page
 
 # Darts
 
-<p style="font-size: 22px;"> Gameplay and Training Web App (Coming Soon) </p>
+<p style="font-size: 20px;"> Gameplay and Training Web App (Coming Soon) </p>
