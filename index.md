@@ -13,4 +13,4 @@ layout: page
 
 # Darts
 
-Gameplay and Training Web App (Coming Soon)
+<p style="font-size: 22px;"> Gameplay and Training Web App (Coming Soon) </p>
