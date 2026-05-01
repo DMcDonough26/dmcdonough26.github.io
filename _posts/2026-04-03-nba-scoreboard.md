@@ -10,13 +10,15 @@ This Streamlit app provides a real-time NBA dashboard that pulls live data from 
 Web app: [nbawatch.streamlit.app](https://nbawatch.streamlit.app) <br>
 GitHub repo: [nba_scoreboard_2026](https://github.com/DMcDonough26/nba_scoreboard_2026)
 
-#### Screenshot of Scoreboard
-
+<figure>
 <img class="zoomable" src="/projects/nba_scoreboard/images/nba_scoreboard_overview.png" alt="Scoreboard Preview">
+<figcaption>Screenshot of Scoreboard</figcaption>
+</figure>
 
-#### Screenshot of Play Type Chart
-
+<figure>
 <img class="zoomable" src="/projects/nba_scoreboard/images/play types.png" alt="Play Types Miami">
+<figcaption>Screenshot of Play Type Chart</figcaption>
+</figure>
 
 ## Background
 This project started years ago, when I was in grad school and had just moved from New York to Chicago. I bought NBA League Pass so I could keep up with the Knicks, and most nights I’d get home from class, open my laptop to do a little work, and want to throw a game on in the background.
