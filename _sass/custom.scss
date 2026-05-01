@@ -54,7 +54,12 @@
   position: relative;
 }
 
+/*
 img {
   border: 0.25px solid #000 !important;
-  border-radius: 0; /* optional: remove rounding */
+}
+*/
+
+figure {
+  border: 0.25px solid #000 !important;
 }
